@@ -24,7 +24,7 @@ randomEmoji.addEventListener("click", function(){
         deleteMessage()
     }
     if (emojiInput.value === "🦄") {
-        message.textContent = "Wohoo! That's a special one!"
+        message.textContent = "Woohoo! That's a special one!"
     }
 })
 
