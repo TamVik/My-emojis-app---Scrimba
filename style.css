@@ -1,0 +1,90 @@
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(#ff0054, #390099);
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#emoji-container {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+#emoji-input {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Silkscreen', cursive;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#push-btn,
+#unshift-btn {
+    margin: 20px 0;
+    background-color: #7678ed;  
+}
+
+#pop-btn,
+#shift-btn {
+    background-color: #60d394;
+}
+
+#push-btn,
+#unshift-btn,
+#pop-btn,
+#shift-btn {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#push-btn:hover,
+#unshift-btn:hover {
+    color: #7678ed;
+    background-color: white;
+
+}
+
+#pop-btn:hover,
+#shift-btn:hover {
+    color: #60d394;
+    background-color: white;
+}
+
+#message {
+    font-size: 4rem;
+    color: #00f5d4;
+}
+
+.accent-color {
+    color: #89fc00;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.accent-color:hover {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.accent-color:active {
+    font-size: 1.5rem;
+    color: #89fc00;
+}

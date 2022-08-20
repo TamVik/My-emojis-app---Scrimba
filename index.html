@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My personality in emojis app</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>My emojis</h1>
+        <div id="emoji-container"></div>
+        <input type="text" id="emoji-input" placeholder="type an emoji 👋">
+        <div class="button-wrapper-add">
+            <button id="push-btn">Add to end</button>
+            <button id="unshift-btn">Add to beginning</button>
+        </div>
+
+        <div class="button-wrapper-remove">
+            <button id="pop-btn">Remove from end</button>
+            <button id="shift-btn">Remove from beginning</button>
+        </div>
+        <p id="random-emoji"><span class="accent-color">Click here</span> for random emoji</p>
+        <p id="message"></p>
+
+        <script src="index.js"></script>
+    </body>
+</html>
